@@ -1,4 +1,4 @@
-export lr=3e-5
+export lr=5e-5
 export s=100
 echo "${lr}"
 export MODEL_DIR=phobert-crf
@@ -13,7 +13,7 @@ python3 main.py --token_level word \
                   --do_eval \
                   --save_steps 140 \
                   --logging_steps 140 \
-                  --num_train_epochs 50 \
+                  --num_train_epochs 30 \
                   --tuning_metric slot_f1 \
                   --use_crf \
                   --gpu_id 0 \
