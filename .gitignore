@@ -1,2 +1,8 @@
 image/
 notes.txt
+results/
+.ipynb_checkpoints/
+phobert-crf/
+PhoNER_COVID19/cached_dev_word_phobert-base_50
+PhoNER_COVID19/cached_test_word_phobert-base_50
+PhoNER_COVID19/cached_train_word_phobert-base_50
