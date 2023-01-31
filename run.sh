@@ -7,7 +7,7 @@ echo "${MODEL_DIR}"
 python3 main.py --token_level word \
                   --model_type phobert \
                   --model_dir $MODEL_DIR \
-                  --data_dir PHONER_COVID19 \
+                  --data_dir PhoNER_COVID19/data \
                   --seed $s \
                   --do_train \
                   --do_eval \
