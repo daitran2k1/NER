@@ -7,6 +7,7 @@ def vocab_process(data_dir):
     # intent_label_vocab = "intent_label.txt"
 
     # train_dir = os.path.join(data_dir, "train")
+    data_dir = os.path.join("data", data_dir)
     train_dir = data_dir
     # intent
     # with open(os.path.join(train_dir, "label"), "r", encoding="utf-8") as f_r, open(
